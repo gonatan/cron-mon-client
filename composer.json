@@ -1,0 +1,23 @@
+{
+  "name": "gonatan/cron-mon-client",
+  "description": "Boilerplate package for creating other packages.",
+  "keywords": ["cronjob", "monitor", "client"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcus Gnaß",
+      "email": "marcus.gnass@gmx.net"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Magna\\Cronmon\\Client\\": "src/"
+    }
+  }
+}
